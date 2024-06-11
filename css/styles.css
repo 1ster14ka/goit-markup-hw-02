@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.hat-list > li a {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hat-list-link-studio:hover {
+  color: #404bbf;
+}
+.hat-list-link-studio:active {
+  text-decoration: underline;
+}
+.hat-list-link-studio:focus {
+  color: #404bbf;
+}
+
+.hat-list-link:hover {
+  color: #404bbf;
+}
+.hat-list-link:focus {
+  color: #404bbf;
+}
+
+.author-list > li a {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+}
+.author-list > li a:hover {
+  color: #404bbf;
+}
+.author-list > li a:focus {
+  color: #404bbf;
+}
+
+.section-title {
+  background-color: #2e2f42;
+}
+.title {
+  text-align: center;
+  color: #fff;
+  line-height: 1.07143;
+  font-size: 56px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-title-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.subtitle-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.team-works {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
