@@ -11,10 +11,23 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
 .hat-list > li a {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .hat-list-link-studio:hover {
@@ -34,10 +47,14 @@ a {
   color: #404bbf;
 }
 
+.author {
+  font-style: normal;
+}
 .author-list > li a {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .author-list > li a:hover {
   color: #404bbf;
@@ -52,28 +69,43 @@ a {
 .title {
   text-align: center;
   color: #fff;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   font-size: 56px;
   font-weight: 700;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .section-title-button {
+  font-family: "Roboto", sans-serif;
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-
+.section-title-button:hover {
+  background-color: #404bbf;
+}
+.section-title-button:focus {
+  background-color: #404bbf;
+}
+.list-subtitle {
+  background-color: #fff;
+}
 .subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .subtitle-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .section-team {
   background-color: #f4f4fd;
@@ -81,9 +113,11 @@ a {
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-name {
@@ -102,5 +136,9 @@ a {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+.logo-studio-footer {
   color: #f4f4fd;
 }
