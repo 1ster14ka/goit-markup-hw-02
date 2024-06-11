@@ -112,3 +112,6 @@ a {
 .logo-studio-footer {
   color: #f4f4fd;
 }
+.footer > p {
+  color: #f4f4fd;
+}
